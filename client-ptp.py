@@ -32,7 +32,7 @@ class TkinterWindow(tk.Tk):
         self.messagebox.insert(END, chars=f"{name}:\n{text}\n\n")
         self.messagebox['state'] = "disabled"
         self.textbox.delete(0,END)
-
+ 
 
 class Connection:
     def __init__(self, ip: str, port: int):
