@@ -71,7 +71,7 @@ class Program:
     def sendevent(self, event): self.send()
 
 
-NAME = "desktop" #input("Input your name: ")
+NAME = input("Input your name: ")
 
 program = Program(IP, PORT)
 
