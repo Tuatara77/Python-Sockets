@@ -3,7 +3,8 @@ import threading
 import tkinter as tk
 from tkinter import END
 
-IP, PORT = "127.0.0.1", 12345
+IP = "127.0.0.1"
+PORT = 12345
 BUFFERSIZE = 1024
 
 STOPMESSAGE = "#64STOPorAng3"
